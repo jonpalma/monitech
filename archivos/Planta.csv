@@ -1,0 +1,34 @@
+ATiempo en baterias,Analogico,0,seg
+Info - Frecuencia de entrada nominal,Analogico,60,Hz
+Info - Nominal poco tiempo de bateria,Analogico,2,min
+ATiempo restante de baterias,Analogico,28919,seg
+AVoltaje de Bateria,Analogico,523,V
+ACorriente de bateria,Analogico,0,A
+ACapacidad de Bateria,Analogico,99,%
+AFrecuencia entrada,Analogico,60,Hz
+Info - Fases de entrada,Analogico,3,
+AVoltaje de entrada fase A,Analogico,258,V
+AVoltaje de entrada fase B,Analogico,260,V
+AVoltaje de entrada fase C,Analogico,260,V
+ACorriente de entrada fase A,Analogico,10,A
+ACorriente de entrada fase B,Analogico,10,A
+ACorriente de entrada fase C,Analogico,10,A
+AWatts entrada fase A,Analogico,2492,W
+AWatts entrada fase B,Analogico,2566,W
+AWatts entrada fase C,Analogico,2541,W
+ANivel de carga,Analogico,40,%
+UPS Conexion,Digital,,
+ En Baterias,Digital,,
+ ToB,Digital,,
+Bateria Baja,Digital,,
+Sobrecarga,Digital,,
+Falla interna en el,Digital,,
+Bateria Descargada,Digital,,
+Se apago la salida,Digital,,
+Apagado Inminente,Digital,,
+las Baterias necesitan servicio,Digital,,
+Falla cargador,Digital,,
+Falla Ventilador,Digital,,
+Falla Fusible,Digital,,
+Switch Falla,Digital,,
+Falla modulo,Digital,,

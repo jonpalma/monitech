@@ -1,0 +1,112 @@
+L1-N Voltaje,Analogico,127,V
+L2-N Voltaje,Analogico,127,V
+L3-N Voltaje,Analogico,127,V
+L1-2 Voltaje,Analogico,220,V
+L2-3 Voltaje,Analogico,220,V
+L3-1 Voltaje,Analogico,220,V
+,,,
+L1 Corriente,Analogico,78,A
+L2 Corriente,Analogico,78,A
+L3 Corriente,Analogico,78,A
+Neutral Corriente,Analogico,78,A
+,,,
+L1 Potencia activa,Analogico,30,Kw
+L2 Potencia activa,Analogico,30,Kw
+L3 Potencia activa,Analogico,30,Kw
+Total Potencia activa,Analogico,30,Kw
+L1 Potencia reactiva,Analogico,7.5,KVAR
+L2 Potencia reactiva,Analogico,7.5,KVAR
+L3 Potencia reactiva,Analogico,7.5,KVAR
+Total Potencia reactiva,Analogico,7.5,KVAR
+L1 Potencia aparente,Analogico,33,KVA
+L2 Potencia aparente,Analogico,33,KVA
+L3 Potencia aparente,Analogico,33,KVA
+Total Potencia aparente,Analogico,33,KVA
+,,,
+L1 Factor de potencia,Analogico,0.9,
+L2 Factor de potencia,Analogico,0.9,
+L3 Factor de potencia,Analogico,0.9,
+Total Factor de potencia,Analogico,0.9,
+Frecuencia,Analogico,60,Hz
+,,,
+Potencia importada 1 contador,Analogico,30,Kw
+Potencia exportada 1 contador,Analogico,30,Kw
+Potencia reactiva inductiva contador 1,Analogico,7.5,KVAR
+Potencia reactiva capacitiva contador 1,Analogico,7.5,KVAR
+Potencia importada contador 2,Analogico,30 KW,Kw
+Potencia exportada contador 2,Analogico,30 KW,Kw
+Potencia reactiva inductiva contador 2,Analogico,7.5,KVAR
+Potencia reactiva capacitiva contador 2,Analogico,7.5,KVAR
+,,,
+L2 Factor de Potencia,Analogico,0.9,
+L3 Factor de Potencia,Analogico,0.9,
+Total Factor de potencia,Analogico,0.9,
+,,,
+THD L1-N Voltaje,Analogico,10,%
+THD L2-N Voltaje,Analogico,10,%
+THD L3-N Voltaje,Analogico,10,%
+THD L1-2 Voltaje,Analogico,10,%
+THD L2-3 Voltaje,Analogico,10,%
+THD L3-1 Voltaje,Analogico,10,%
+,,,
+THD L1 Corriente,Analogico,10,%
+THD L2 Corriente,Analogico,10,%
+THD L3 Corriente,Analogico,10,%
+THD Neutral Corriente,Analogico,10,
+,,,
+Demanda I1 corriente,Analogico,78,A
+Demanda I2 Corriente,Analogico,78,A
+Demanda I3 Corriente,Analogico,78,A
+Demanda Ia promedio Corriente,Analogico,55,A
+Demanda kW ,Analogico,30,KW
+Demanda kVAr ,Analogico,7.5,KVAR
+Minimo L1-N Voltaje ,Analogico,116.84,V
+Minimo L2-N Voltaje ,Analogico,116.84,V
+Minimo L3-N Voltaje,Analogico,116.84,V
+Minimo L1-2 Voltaje,Analogico,202.4,V
+Minimimo L2-3 Voltaje,Analogico,202.4,V
+Minimo L3-1 Voltaje,Analogico,202.4,V
+,,,
+Minimo I1 Corriente,Analogico,19.5,A
+Minimo I2 Corriente,Analogico,19.5,A
+Minimo I3 Corriente,Analogico,19.5,A
+Minimo Ia Averaje,Analogico,19.5,A
+Corriente,Analogico,78,A
+,,,
+Minimo Frecuencia,Analogico,58.8,Hz
+Minimo kW Importar,Analogico,6.6,Kw
+Minimo kW Exportar,Analogico,6.6,Kw
+Minimo kVAr Inductivo,Analogico,0.73,KVAR
+Minimo kVAr Capacitivo,Analogico,0.73,KVAR
+Maximo L1-N Voltaje,Analogico,138,V
+Maximo L2-N Voltaje,Analogico,138,V
+Maximo L3-N Voltaje,Analogico,138,V
+,,,
+Maximo L1-2 Voltaje,Analogico,237.6,V
+,,,
+Maximo L2-3 Voltaje,Analogico,237.6,V
+Maximo L3-1 Voltaje,Analogico,237.6,V
+Maximo I1 Corriente,Analogico,78,A
+Maximo I2 Corriente,Analogico,78,A
+Maximo I3 Corriente,Analogico,78,A
+Maximo Ia Promedio corriente,Analogico,78,A
+,,,
+Maximo frecuencia,Analogico,60.9,Hz
+Maximo kW Importar,Analogico,30,Kw
+Maximo Kw Exportar,Analogico,30,Kw
+Maximo kVAr Inductivo,Analogico,7.5,KVAR
+,,,
+Maximo kVAr Capacitivo,Analogico,7.5,KVAR
+,,,
+,,,
+Promedio L-N,Analogico,127,V
+Promedio L-L,Analogico,220,V
+Promedio L-N,Analogico,39,A
+L1 Q/P ratio,Analogico,0.25,
+L2 Q/P ratio,Analogico,0.25,
+L3 Q/P ratio,Analogico,0.25,
+Total Q/P ratio,Analogico,0.25,
+Voltage Unbalance Ratio,Analogico,1.18,
+Current Unbalance Ratio,Analogico,4,
+Nivel de combustible,Analogico,65.3,%
+Voltaje de bateria,Analogico,12,V

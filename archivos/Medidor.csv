@@ -1,0 +1,13 @@
+Volts Linea 1,Analogico,120,V
+Volts Linea 2,Analogico,120,V
+Volts Linea 3,Analogico,120,V
+Watts Line 1,Analogico,100,W
+Watts Line 2,Analogico,100,W
+Watts Line 3,Analogico,98,W
+Corriente linea 1,Analogico,3,A
+Corriente linea 2,Analogico,2,A
+Corriente linea 3,Analogico,3,A
+Armonicas,Analogico,0.4,%
+Sobre corriente,Analogico,1.2,A
+Capacidad,Analogico,80,%
+TH distorsión.,Analogico,4,%

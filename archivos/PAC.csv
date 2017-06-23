@@ -1,0 +1,100 @@
+Configuración de la enfriadora,,,
+Conectado a,Texto,6200-0450,
+Versión de software,Texto,15,
+Configuracion,Texto,12,
+Revision de estructura,Texto,5,
+Registro de fecha y hora,Texto,jueves 11……,
+Version de inicio 1,Texto,432.1,
+Version de inicio 2,Texto,432.1,
+No. De piesa de Atmel,Texto,320.9,
+No. De modelo,Texto,CGMA06B2L02XXD,
+No. De serie,Texto,U15G50342,
+,,,
+CH530,,,
+Secuencia de control ,Texto,1,
+Tipo de unidad (MODL),Texto,CGAM,
+Capacidad Unidad,Texto,60 toneladas nominales,
+Paquete sonoro,Texto,Ruido estandar,
+Suministrar frecuencia industrial,Texto,60 Hz,
+Aplicación de la unidad,Texto,Wide Ambient (0 to 125F/18 to 52C),
+,,,
+Valores de ajuste de la enfriadora,,,
+Enfriadora,,,
+Barrido operacional,Digital,Activar,
+Tipo de ajuste del agua enfriada,Digital,Desactivar,
+Temp. Entrada del agua del evaporador,Analogico,"7,32",C
+Valor de ajuste de agua enfriada del panel frontal,Analogico,"7,22",C
+Val. Cons.lim. Deman. Panel front,Analogico,100,%
+"Temp, salida agua evap",Analogico,6.37,C
+Indice rearme retorno,Analogico,50,%
+Rearme arranque retorno,Analogico,5.56,C
+Rearme max. Retorno,Analogico,2.78,C
+Indice rearme temp. Ambiente,Analogico,10,%
+Rearme arranque temp. Ambiente,Analogico,32.22,C
+Tiempo aviso antirreb. Cap max,Analogico,20:00,min:sec
+Presion atmosferica local,Analogico,"101,35 ",kPa
+Retardo de arranque,Analogico,00:00,min:sec
+Fuente del valor de consigna,Texto,Panel frontal,
+Opcion etapa circuito,Texto,Arranques y horas equilibrados,
+Diferencia temp diseño frio,Analogico,5.56,C
+Tiempo de carga reducida para control de potencia,Analogico,900,sec
+Bloq temp am baja refri,Digital,Activar,
+V cons bloq T amb baja refri,Analogico,-11.94,C
+Corte por baja temp. Refrigerante,Analogico,-3.33,C
+Opcion de etapa comp,Texto,Arranques y horas equilibrados,
+,,,
+Modo,,,
+Nivel maximo enfriadora,Dgital,En funcionamiento,
+Sub enfriadora,Dgital,Control de agua enfriada,
+Sub enfriadora,Dgital,,
+Modo funcionamiento nivel max,Dgital,Automatico,
+Modo secundario,Dgital,,
+Modo de enfriadora en ultimo diagnostico,Dgital,,
+,,,
+Opciones,,,
+Metodo de selección EXV,Texto,Numero de modelo,
+EXV Size Calculation,Texto,Rating point Adjusted,
+Cooling EXV Size adjustment circuit 1,Analogico,100,%
+Cooling EXV Size adjustment circuit 2,Analogico,100,%
+Sensores de la temperatura de descarga,Digital,No instalado,
+Standard Phase Monitoring,Digital,Instalado,
+Monitor de fase optimizado,Digital,No instalado,
+Correccion del factor de potencia,Digital,No instalado,
+Control de bomba del evaporador,Digital,Sin control de las bombas,
+Proteccion de antihelio por la resistencia,Digital,Resistencia de termostato externo,
+Fabrica de helio,Digital,No instalado,
+Reles programables de estado de funcionamiento,Digital,No instalado,
+Bloqueo de circuito externo,Digital,No instalado,
+Valor de consigna auxiliar,Digital,No instalado,
+Valor de consigna auxiliar,Digital,No instalado,
+Valor de cons agua caliente/fria ext,Digital,No instalado,
+Valor de consigna del limite de consumo externo,Digital,No instalado,
+,,,
+CH530,,,
+Secuencia de control ,,1,
+Tipo de unidad (MODL,Texto,CGAM,
+Capacidad Unidad,Texto,60 toneladas nominales,
+Secuendia de diseño de la unidad,Texto,L0,
+Ubicación de fabricacion (DCTL),Texto,"Pueblo, CO EE UU",
+Paquete sonoro,Texto,Ruido estandar,
+Suministrar frecuencia industrial,Texto,60,Hz
+Aplicación de la unidad,Texto,Wide Ambient (0to 125F/-18 to 52C),
+Tipo de control del soporte de ventiladores,Texto,Interfaz analogica,
+,,,
+ALARMAS,,,
+,,,
+Temperatura alta,Digital,,
+Temperatura baja,Digital,,
+Humedad alta,Digital,,
+Humedad baja,Digital,,
+Perdida de aire,Digital,,
+Alta presion,Digital,,
+Baja presion,Digital,,
+Humidificador bajo de agua,Digital,,
+Agua en piso falso,Digital,,
+Alarma personalizada extra,Digital,,
+Preventivos de fase única,Digital,,
+Fase de reversa,Digital,,
+Desequilibrio de fases,Digital,,
+Falla en fase,Digital,,
+Disparo por sobrecarga (MPCB) de todos los componentes,Digital,,

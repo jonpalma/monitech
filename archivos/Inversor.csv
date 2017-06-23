@@ -1,0 +1,12 @@
+AFrecuencia Salida,Analogico,60,Hz
+Info - Fases de salida,Analogico,3,
+AVoltaje de salida fase A,Analogico,274,V
+AVoltaje de salida fase B,Analogico,277,V
+AVoltaje de salida fase C,Analogico,279,V
+ACorriente de salida fase A,Analogico,19,A
+ACorriente de salida fase B,Analogico,10,A
+ACorriente de salida fase C,Analogico,11,A
+AWatts de salida en fase A,Analogico,2523,W
+AWatts de salida en fase B,Analogico,1268,W
+AWatts de salida en fase C,Analogico,1508,W
+Falla en Inversor,Digital,,

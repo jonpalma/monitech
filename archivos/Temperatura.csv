@@ -1,0 +1,12 @@
+Temperatura general,Analogico,25.5,°C
+Temperatura pasillo frio,Analogico,15.8,°C
+Temperatura pasillo caliente,Analogico,27,°C
+Diferencia pasillos,Analogico,10,°C
+,,,
+Humedad general,Analogico,38,%
+Humedad pasillo frio,Analogico,38.3,%
+Humedad pasillo caliente,Analogico,36.1,%
+,,,
+Gabinete sysco,Analogico,22.8,°C
+Gabinete 3m,Analogico,22.3,°C
+Gabinete big system,Analogico,22.2,°C

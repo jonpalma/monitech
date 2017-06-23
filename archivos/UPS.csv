@@ -1,0 +1,74 @@
+ATiempo en baterias,Analogico,0,seg
+Info - Frecuencia de entrada nominal,Analogico,60,Hz
+Info- VA´s de salida,Analogico,40000,V
+Info - Nominal poco tiempo de bateria,Analogico,2,min
+ATiempo restante de baterias,Analogico,28919,seg
+AVoltaje de Bateria,Analogico,523,V
+ACorriente de bateria,Analogico,0,A
+ACapacidad de Bateria,Analogico,99,%
+AFrecuencia entrada,Analogico,60,Hz
+Info - Fases de entrada,Analogico,3,
+AVoltaje de entrada fase A,Analogico,258,V
+AVoltaje de entrada fase B,Analogico,260,V
+AVoltaje de entrada fase C,Analogico,260,V
+ACorriente de entrada fase A,Analogico,10,A
+ACorriente de entrada fase B,Analogico,10,A
+ACorriente de entrada fase C,Analogico,10,A
+AWatts entrada fase A,Analogico,2492,W
+AWatts entrada fase B,Analogico,2566,W
+AWatts entrada fase C,Analogico,2541,W
+ANivel de carga,Analogico,40,%
+AFrecuencia Salida,Analogico,60,Hz
+Info - Fases de salida,Analogico,3,
+AVoltaje de salida fase A,Analogico,274,V
+AVoltaje de salida fase B,Analogico,277,V
+AVoltaje de salida fase C,Analogico,279,V
+ACorriente de salida fase A,Analogico,19,A
+ACorriente de salida fase B,Analogico,10,A
+ACorriente de salida fase C,Analogico,11,A
+AWatts de salida en fase A,Analogico,2523,W
+AWatts de salida en fase B,Analogico,1268,W
+AWatts de salida en fase C,Analogico,1508,W
+AFrecuencia del Bypass,Analogico,60,Hz
+Info - Bypass Fases,Analogico,3,
+AVoltaje Bypass fase A,Analogico,259,V
+AVoltaje Bypass fase B,Analogico,261,V
+AVoltaje Bypass fase C,Analogico,260,V
+EMP Temperatura Remota,Analogico,23,°C
+EMP Humedad Remota,Analogico,24,
+Info - Voltaje Nominal de Salida,Analogico,277,V
+Info - Voltaje Nominal de entrada,Analogico,277,V
+Info - Watts Salida Nominal,Analogico,36000,W
+Info - Frecuencia Nominal de Salida,Analogico,60,Hz
+Actualizacion del sistema,Analogico,231d 19h 12m 36s 260ms,
+UPS Conexion,Digital,,
+UPS En Baterias,Digital,,
+UPS Bateria Baja,Digital,,
+UPS Sobrecarga,Digital,,
+Falla interna en el UPS,Digital,,
+UPS Bateria Descargada,Digital,,
+UPS Falla en Inversor,Digital,,
+UPS En Bypass,Digital,,
+UPS Bypass No Disponible,Digital,,
+UPS Se apago la salida,Digital,,
+UPS Alarma edificio,Digital,,
+UPS Apagado Inminente,Digital,,
+UPS las Baterias necesitan servicio,Digital,,
+UPS Comunicacion Perdida,Digital,,
+UPS Apagado pendiente,Digital,,
+UPS Temperatura Ambiente Mal,Digital,,
+UPS Perdida de redundancia,Digital,,
+UPS Alarma de temperatura,Digital,,
+UPS Falla cargador,Digital,,
+UPS Falla Ventilador,Digital,,
+UPS Falla Fusible,Digital,,
+UPS Switch Falla,Digital,,
+UPS Falla modulo,Digital,,
+UPS ToB,Digital,,
+UPS Interruptor abierto,Digital,,
+Info - Firmware tarjeta de red,Texto,ConnectUPS Web/SNMP Card V4.20,
+Info - UPS Numero de serie,Texto,"ID: EY254CAA02, Msg: TA0422320030010",
+Info - UPS Manufactura,Texto,Powerware Corporation,
+Info - UPS Modelo,Texto,TELETON TUXLA UP,
+Info - UPS Firmware Version,Texto,INV: 2.12 RCT: 1.12 IFC: 1.10,
+Descripcion del sistema,Texto,ConnectUPS Web/SNMP Card V4.20,
