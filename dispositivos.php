@@ -101,9 +101,9 @@
                     </div>
                 </div>
                 <div class="content">
-                    <ul class="panel-group ppl" id="group">
+                    <ul class="panel-group ppl" id="group-alertas">
                         <li class="panel panel-default">
-                            <a class="lugar" data-toggle="collapse" data-parent="#group" href="#collapse-chih">
+                            <a class="lugar" data-toggle="collapse" data-parent="#group-alertas" href="#collapse-chih">
                                 <i class="fa fa-circle red" aria-hidden="true"></i><span class="bold">   ITESM Chihuahua</span>
                             </a>
                             <div class="clearfix"></div>
@@ -128,7 +128,7 @@
                             </div>
                         </li>
                         <li class="panel panel-default">
-                            <a class="lugar" data-toggle="collapse" data-parent="#group" href="#collapse-cdmx">
+                            <a class="lugar" data-toggle="collapse" data-parent="#group-alertas" href="#collapse-cdmx">
                                 <i class="fa fa-circle red" aria-hidden="true"></i><span class="bold">   CRIT Cd. México</span>
                             </a>
                             <div class="clearfix"></div>
