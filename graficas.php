@@ -59,7 +59,7 @@
                     <div class="lugar">
                         <div class="vertical-align">
                             <p>
-                                <span class="bold">PUE</span> Guadalajara<br>
+                                <span class="bold">PUE</span> CRIT Guadalajara<br>
                                 Esta semana
                             </p>
                         </div>
@@ -75,7 +75,7 @@
                     <div class="lugar">
                         <div class="vertical-align">
                             <p>
-                                <span class="bold">PUE</span> Chihuahua<br>
+                                <span class="bold">PUE</span> ITESM Chihuahua<br>
                                 Esta semana
                             </p>
                         </div>
@@ -91,7 +91,7 @@
                     <div class="lugar">
                         <div class="vertical-align">
                             <p>
-                                <span class="bold">PUE</span> Cd. México<br>
+                                <span class="bold">PUE</span> CRIT Cd. México<br>
                                 Esta semana
                             </p>
                         </div>
@@ -107,7 +107,7 @@
                     <div class="lugar">
                         <div class="vertical-align">
                             <p>
-                                <span class="bold">PUE</span> Monterrey<br>
+                                <span class="bold">PUE</span> ITESM Monterrey<br>
                                 Esta semana
                             </p>
                         </div>
@@ -176,7 +176,7 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="fecha vertical-align">
+                            <div class="fecha">
                                 <div class="vertical-align">
                                     <label for="from">De</label>
                                     <input type="text" id="from" name="from">

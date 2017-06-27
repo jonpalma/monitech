@@ -33,7 +33,7 @@ $nav_reportes = 'class="active"';
                     <div class="lugar">
                         <div class="vertical-align">
                             <p>
-                                <span class="bold">PUE</span> Guadalajara<br>
+                                <span class="bold">PUE</span> CRIT Guadalajara<br>
                                 Esta semana
                             </p>
                         </div>
@@ -49,7 +49,7 @@ $nav_reportes = 'class="active"';
                     <div class="lugar">
                         <div class="vertical-align">
                             <p>
-                                <span class="bold">PUE</span> Chihuahua<br>
+                                <span class="bold">PUE</span> ITESM Chihuahua<br>
                                 Esta semana
                             </p>
                         </div>
@@ -65,7 +65,7 @@ $nav_reportes = 'class="active"';
                     <div class="lugar">
                         <div class="vertical-align">
                             <p>
-                                <span class="bold">PUE</span> Cd. México<br>
+                                <span class="bold">PUE</span> CRIT Cd. México<br>
                                 Esta semana
                             </p>
                         </div>
@@ -81,7 +81,7 @@ $nav_reportes = 'class="active"';
                     <div class="lugar">
                         <div class="vertical-align">
                             <p>
-                                <span class="bold">PUE</span> Monterrey<br>
+                                <span class="bold">PUE</span> ITESM Monterrey<br>
                                 Esta semana
                             </p>
                         </div>
@@ -101,187 +101,54 @@ $nav_reportes = 'class="active"';
                 <div class="servidores" id="servidores">
                     <div class="title-section">
                         <div class="vertical-align">
-                            <h3>Servidores</h3>
+                            <h3>Reportes</h3>
                         </div>
                     </div>
                     <div class="content">
-                        <div class="title-fixed">
-                            <div class="servidor">
-                                <p>
-                                    SERVIDOR
-                                </p>
-                            </div>
-                            <div class="dispositivo">
-                                <p>
-                                    DISPOSITIVO
-                                </p>
-                            </div>
-                            <div class="options">
-                                <p>
-                                    <label for="reporte-chih-planta">Reportes
+                        <div class="reporte-opciones">
+                            <div class="servidor-dispositivo">
+                                <div class="vertical-align">
+                                    <label for="slct-servidor">Servidor
                                         <select name="slct-servidor" id="slct-servidor">
-                                            <option value="">Fallas</option>
-                                            <option value="">Desempeño</option>
+                                            <option value="">ITESM Chihuahua</option>
+                                            <option value="">ITESM Monterrey</option>
+                                            <option value="">CRIT Guadalajara</option>
+                                            <option value="">CRIT Cd. México</option>
+                                            <option value="">L'ORÉAL San Luis Potosi</option>
                                         </select>
                                     </label>
-                                </p>
+                                    <label for="slct-dispositivo">Dispositivo
+                                        <select name="slct-dispositivo" id="slct-dispositivo">
+                                            <option value="">Planta Emergencia</option>
+                                            <option value="">UPS</option>
+                                            <option value="">Planta DC</option>
+                                            <option value="">PAC 2</option>
+                                            <option value="">Medidor</option>
+                                            <option value="">Inversor</option>
+                                            <option value="">Baterias</option>
+                                            <option value="">Temperatura</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="fecha">
+                                <div class="col-xs-8 vertical-align">
+                                    <label for="from">De</label>
+                                    <input type="text" id="from" name="from">
+                                    <label for="to">a</label>
+                                    <input type="text" id="to" name="to">
+                                </div>
+                                <div class="col-xs-4 vertical-align">
+                                    <a class="bttn bttn-generar-reporte" name="bttnReporte-chih-ups" id="bttnReporte-chih-ups" href="#rep-1" data-target="#rep-1" role="tab" data-toggle="tab">
+                                        Generar Reporte
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="data">
-                            <ul>
-                                <li>
-                                    <div class="row no-margin">
-                                        <div class="servidor">
-                                            <p>
-                                                ITESM Chihuahua
-                                            </p>
-                                        </div>
-                                        <div class="dispositivo">
-                                            <p>
-                                                Planta Emergencia
-                                            </p>
-                                        </div>
-                                        <div class="options">
-                                            <a class="bttn" href="" name="bttnReporte-chih-ups" id="bttnReporte-chih-ups">
-                                                Generar Reporte
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row no-margin">
-                                        <div class="servidor">
-                                            <p>
-                                                ITESM Chihuahua
-                                            </p>
-                                        </div>
-                                        <div class="dispositivo">
-                                            <p>
-                                                UPS
-                                            </p>
-                                        </div>
-                                        <div class="options">
-                                            <a class="bttn" href="" name="bttnReporte-chih-ups" id="bttnReporte-chih-ups">
-                                                Generar Reporte
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row no-margin">
-                                        <div class="servidor">
-                                            <p>
-                                                ITESM Chihuahua
-                                            </p>
-                                        </div>
-                                        <div class="dispositivo">
-                                            <p>
-                                                Planta DC
-                                            </p>
-                                        </div>
-                                        <div class="options">
-                                            <a class="bttn" href="" name="bttnReporte-chih-planta" id="bttnReporte-chih-planta">
-                                                Generar Reporte
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row no-margin">
-                                        <div class="servidor">
-                                            <p>
-                                                ITESM Chihuahua
-                                            </p>
-                                        </div>
-                                        <div class="dispositivo">
-                                            <p>
-                                                PAC 2
-                                            </p>
-                                        </div>
-                                        <div class="options">
-                                            <a class="bttn" href="" name="bttnReporte-chih-pac" id="bttnReporte-chih-pac">
-                                                Generar Reporte
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row no-margin">
-                                        <div class="servidor">
-                                            <p>
-                                                ITESM Chihuahua
-                                            </p>
-                                        </div>
-                                        <div class="dispositivo">
-                                            <p>
-                                                MEDIDOR
-                                            </p>
-                                        </div>
-                                        <div class="options">
-                                            <a class="bttn" href="" name="bttnReporte-chih-medidor" id="bttnReporte-chih-medidor">
-                                                Generar Reporte
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row no-margin">
-                                        <div class="servidor">
-                                            <p>
-                                                ITESM Chihuahua
-                                            </p>
-                                        </div>
-                                        <div class="dispositivo">
-                                            <p>
-                                                INVERSOR
-                                            </p>
-                                        </div>
-                                        <div class="options">
-                                            <a class="bttn" href="" name="bttnReporte-chih-inversor" id="bttnReporte-chih-inversor">
-                                                Generar Reporte
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row no-margin">
-                                        <div class="servidor">
-                                            <p>
-                                                ITESM Chihuahua
-                                            </p>
-                                        </div>
-                                        <div class="dispositivo">
-                                            <p>
-                                                BATERIAS
-                                            </p>
-                                        </div>
-                                        <div class="options">
-                                            <a class="bttn" href="" name="bttnReporte-chih-baterias" id="bttnReporte-chih-baterias">
-                                                Generar Reporte
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row no-margin">
-                                        <div class="servidor">
-                                            <p>
-                                                ITESM Chihuahua
-                                            </p>
-                                        </div>
-                                        <div class="dispositivo">
-                                            <p>
-                                                TEMPERATURA
-                                            </p>
-                                        </div>
-                                        <div class="options">
-                                            <a class="bttn" href="" name="bttnReporte-chih-temperatura" id="bttnReporte-chih-temperatura">
-                                                Generar Reporte
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="ver-reporte tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active" id="rep-1">
+
+                            </div>
                         </div>
                     </div>
                 </div>

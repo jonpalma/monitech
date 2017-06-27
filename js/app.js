@@ -1,9 +1,78 @@
 $(document).ready(function() {
-    var arr_url = window.location.href.split('/');
+    var oldURL = window.location.href;
+    var index = 0;
+    var newURL = oldURL;
+    index = oldURL.indexOf('?');
+    if(index == -1){
+        index = oldURL.indexOf('#');
+    }
+    if(index != -1){
+        newURL = oldURL.substring(0, index);
+    }
+
+    var arr_url = newURL.split('/');
     var pathname = arr_url[arr_url.length-1];
 
     $('.navbar-nav > li > a[href="'+pathname+'"]').parent().addClass('active');
 });
+
+/*  NAV-RESPONSIVE */
+$(window).resize(function() {
+    add_resp();
+});
+
+$(document).ready(function() {
+    add_resp();
+});
+
+function add_resp() {
+    if($(window).width() <= '992')
+    {
+        $('.navbar').addClass('resp');
+        $('.navbar').css('left', '-200px');
+        $("#navbar-toggle").css('right', '-65px');
+    }
+    else
+    {
+        $('.navbar').removeClass('resp');
+        $('.navbar').css('left', '0');
+    }
+}
+
+$(document).click(function (e) {
+    var $navbar = $('.navbar.resp');
+    if (!$navbar.is(e.target) && $navbar.has(e.target).length === 0)
+    {
+        nav_close();
+    }
+});
+
+$("#navbar-toggle").click(function() {
+    if(!$("#navbar-toggle").hasClass('active'))
+    {
+        nav_open();
+    }
+    else if($("#navbar-toggle").hasClass('active'))
+    {
+        nav_close();
+    }
+});
+
+function nav_open() {
+    $(".navbar.resp").css('left', '0');
+    $("#navbar-toggle").addClass('active');
+    $("#navbar-toggle").css('right', '0');
+    $("#navbar-toggle i.icon-open").addClass('hidden');
+    $("#navbar-toggle i.icon-close").removeClass('hidden');
+}
+
+function nav_close() {
+    $(".navbar.resp").css('left', '-200px');
+    $("#navbar-toggle").removeClass('active');
+    $("#navbar-toggle").css('right', '-65px');
+    $("#navbar-toggle i.icon-open").removeClass('hidden');
+    $("#navbar-toggle i.icon-close").addClass('hidden');
+}
 
 
 /* SONIDO-ALARMA */

@@ -17,19 +17,22 @@
     <script src="js/jquery-1.12.1-ui.js"></script>
 </head>
 <body>
+<?php
+if($page != 'login')
+{
+?>
 <nav class="navbar navbar-default">
     <div class="container-fluid">
-        <a href="<?php if($page != 'index') { echo 'index.php'; }?>#index" class="smoothScroll nav-logo">
-            <img src="img/icons/logo.png" alt="logo" class="vertical-align">
-        </a>
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <div class="bttn-container">
+            <button type="button" id="navbar-toggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                <i class="fa fa-times icon-close hidden" aria-hidden="true"></i>
+                <i class="fa fa-bars icon-open" aria-hidden="true"></i>
             </button>
         </div>
+        <a href="index.php" class="smoothScroll nav-logo">
+            <img src="img/icons/logo.png" alt="logo" class="vertical-align">
+        </a>
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="index.php" class="nav-padd">
@@ -48,3 +51,6 @@
         </div>
     </div>
 </nav>
+<?php
+}
+?>

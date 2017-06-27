@@ -70,7 +70,7 @@ Minimo L3-1 Voltaje,Analogico,202.4,V
 Minimo I1 Corriente,Analogico,19.5,A
 Minimo I2 Corriente,Analogico,19.5,A
 Minimo I3 Corriente,Analogico,19.5,A
-Minimo Ia Averaje,Analogico,19.5,A
+Minimo Total Corriente,Analogico,19.5,A
 Corriente,Analogico,78,A
 ,,,
 Minimo Frecuencia,Analogico,58.8,Hz
@@ -89,7 +89,7 @@ Maximo L3-1 Voltaje,Analogico,237.6,V
 Maximo I1 Corriente,Analogico,78,A
 Maximo I2 Corriente,Analogico,78,A
 Maximo I3 Corriente,Analogico,78,A
-Maximo Ia Promedio corriente,Analogico,78,A
+Maximo Total Corriente,Analogico,78,A
 ,,,
 Maximo frecuencia,Analogico,60.9,Hz
 Maximo kW Importar,Analogico,30,Kw
