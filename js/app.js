@@ -13,7 +13,12 @@ $(document).ready(function() {
     var arr_url = newURL.split('/');
     var pathname = arr_url[arr_url.length-1];
 
-    $('.navbar-nav > li > a[href="'+pathname+'"]').parent().addClass('active');
+    if(pathname == '')
+    {
+        pathname = 'index.php';
+    }
+
+    $('.navbar-nav > li > a[href="' + pathname + '"]').parent().addClass('active');
 });
 
 /*  NAV-RESPONSIVE */
@@ -157,8 +162,8 @@ $(function(){
             }
         },
         legend: {
-            verticalAlignment: "top",
-            horizontalAlignment: "right"
+            verticalAlignment: "bottom",
+            horizontalAlignment: "center"
         },
         "export": {
             enabled: true
@@ -253,8 +258,8 @@ $(function(){
             }
         },
         legend: {
-            verticalAlignment: "top",
-            horizontalAlignment: "right"
+            verticalAlignment: "bottom",
+            horizontalAlignment: "center"
         },
         "export": {
             enabled: true
