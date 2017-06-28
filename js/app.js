@@ -83,6 +83,10 @@ $('#menu-sup .row a.alertas').click(function () {
     $('audio.alarma').attr("src", "");
 });
 
+window.setInterval(function(){
+    $('#menu-sup .row a.alertas > i.notificacion').css('display', 'none');
+}, 60000);
+
 
 /* ESTADO */
 $(document).ready(function()
@@ -392,11 +396,11 @@ $('#dispositivos-canales .panel-group .panel-default .lugar').find('p').each(fun
     var text = $(this).text();
     if(text.toLowerCase().indexOf("itesm chihuahua") >= 0)
     {
-        $(this).find('i').addClass('red');
+        $(this).find('span.pulse-green').addClass('pulse-red').removeClass('pulse-green');
     }
     if(text.toLowerCase().indexOf("crit cd. méxico") >= 0)
     {
-        $(this).find('i').addClass('red');
+        $(this).find('span.pulse-green').addClass('pulse-red').removeClass('pulse-green');
     }
 });
 $('#dispositivos-canales .panel-group .panel-default #collapse-1').find('a').each(function()
@@ -404,7 +408,7 @@ $('#dispositivos-canales .panel-group .panel-default #collapse-1').find('a').eac
     var text = $(this).text();
     if(text.toLowerCase().indexOf("ups") >= 0)
     {
-        $(this).find('i').addClass('red');
+        $(this).find('span.pulse-green').addClass('pulse-red').removeClass('pulse-green');
     }
 });
 $('#dispositivos-canales .panel-group .panel-default #collapse-3').find('a').each(function()
@@ -412,11 +416,11 @@ $('#dispositivos-canales .panel-group .panel-default #collapse-3').find('a').eac
     var text = $(this).text();
     if(text.toLowerCase().indexOf("planta dc") >= 0)
     {
-        $(this).find('i').addClass('red');
+        $(this).find('span.pulse-green').addClass('pulse-red').removeClass('pulse-green');
     }
     if(text.toLowerCase().indexOf("inversor") >= 0)
     {
-        $(this).find('i').addClass('red');
+        $(this).find('span.pulse-green').addClass('pulse-red').removeClass('pulse-green');
     }
 });
 $('#dispositivos-canales #canales #tab-1-1').find('li').each(function()

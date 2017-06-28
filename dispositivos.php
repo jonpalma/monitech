@@ -6,14 +6,7 @@
     <!--/* MENU-SUP */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="menu-sup" id="menu-sup">
-        <audio class="alarma" src="media/beep.mp3" loop="true" autoplay="true"></audio>
-        <div class="row no-margin">
-            <a class="alertas" href="#"><i class="fa fa-circle notificacion" aria-hidden="true"></i><i class="fa fa-bell" aria-hidden="true"></i></a>
-            <a class="usuario" href="#"><i class="fa fa-circle notificacion" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i></a>
-            <a class="opciones" href="#"><i class="fa fa-circle notificacion" aria-hidden="true"></i><i class="fa fa-cog" aria-hidden="true"></i></a>
-        </div>
-    </div>
+    <?php include('menu.php');?>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* CONTENT */-->
@@ -104,7 +97,7 @@
                     <ul class="panel-group ppl" id="group-alertas">
                         <li class="panel panel-default">
                             <a class="lugar" data-toggle="collapse" data-parent="#group-alertas" href="#collapse-chih">
-                                <i class="fa fa-circle red" aria-hidden="true"></i><span class="bold">   ITESM Chihuahua</span>
+                                <span class="pulse-red"></span><span class="bold">   ITESM Chihuahua</span>
                             </a>
                             <div class="clearfix"></div>
                             <div id="collapse-chih" class="panel-collapse collapse in">
@@ -118,7 +111,7 @@
                                             <ul class="canales">
                                                 <li>
                                                     <p>
-                                                        <i class="fa fa-circle red" aria-hidden="true"></i>  UPS en Bypass
+                                                        <span class="pulse-red"></span>  UPS en Bypass
                                                     </p>
                                                 </li>
                                             </ul>
@@ -129,7 +122,7 @@
                         </li>
                         <li class="panel panel-default">
                             <a class="lugar" data-toggle="collapse" data-parent="#group-alertas" href="#collapse-cdmx">
-                                <i class="fa fa-circle red" aria-hidden="true"></i><span class="bold">   CRIT Cd. México</span>
+                                <span class="pulse-red"></span><span class="bold">   CRIT Cd. México</span>
                             </a>
                             <div class="clearfix"></div>
                             <div id="collapse-cdmx" class="panel-collapse collapse">
@@ -143,7 +136,7 @@
                                             <ul class="canales">
                                                 <li>
                                                     <p>
-                                                        <i class="fa fa-circle red" aria-hidden="true"></i>  Falla modulo
+                                                        <span class="pulse-red"></span>  Falla modulo
                                                     </p>
                                                 </li>
                                             </ul>
@@ -158,7 +151,7 @@
                                             <ul class="canales">
                                                 <li>
                                                     <p>
-                                                        <i class="fa fa-circle red" aria-hidden="true"></i>  Falla en Inversor
+                                                        <span class="pulse-red"></span>  Falla en Inversor
                                                     </p>
                                                 </li>
                                             </ul>
@@ -183,7 +176,7 @@
             <div class="dispositivos" id="dispositivos">
                 <div class="title-section">
                     <div class="vertical-align">
-                        <h3>Dispositivos</h3>
+                        <h3>Servidores</h3>
                     </div>
                 </div>
                 <div class="content">
@@ -192,7 +185,7 @@
                             <a data-toggle="collapse" data-parent="#group" href="#collapse-1">
                                 <div class="lugar">
                                     <p>
-                                        <i class="fa fa-circle green" aria-hidden="true"></i> <span class="bold">ITESM Chihuahua</span><br>
+                                        <span class="pulse-green"></span> <span class="bold">ITESM Chihuahua</span><br>
                                     </p>
                                 </div>
                             </a>
@@ -201,42 +194,42 @@
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation" class="active">
                                         <a href="#tab-1-1" data-target="#tab-1-1" aria-controls="tab-1-1" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Planta Emergencia
+                                            <span class="pulse-green"></span> Planta Emergencia
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-1-2" data-target="#tab-1-2" aria-controls="tab-1-2" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> UPS
+                                            <span class="pulse-green"></span> UPS
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-1-3" data-target="#tab-1-3" aria-controls="tab-1-3" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Planta DC
+                                            <span class="pulse-green"></span> Planta DC
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-1-4" data-target="#tab-1-4" aria-controls="tab-1-4" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> PAC 2
+                                            <span class="pulse-green"></span> PAC 2
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-1-5" data-target="#tab-1-5" aria-controls="tab-1-5" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Medidor
+                                            <span class="pulse-green"></span> Medidor
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-1-6" data-target="#tab-1-6" aria-controls="tab-1-6" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Inversor
+                                            <span class="pulse-green"></span> Inversor
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-1-7" data-target="#tab-1-7" aria-controls="tab-1-7" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Baterias
+                                            <span class="pulse-green"></span> Baterias
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-1-8" data-target="#tab-1-8" aria-controls="tab-1-8" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Temperatura
+                                            <span class="pulse-green"></span> Temperatura
                                         </a>
                                     </li>
                                 </ul>
@@ -246,7 +239,7 @@
                             <a data-toggle="collapse" data-parent="#group" href="#collapse-2">
                                 <div class="lugar">
                                     <p>
-                                        <i class="fa fa-circle green" aria-hidden="true"></i> <span class="bold">ITESM Monterrey</span><br>
+                                        <span class="pulse-green"></span> <span class="bold">ITESM Monterrey</span><br>
                                     </p>
                                 </div>
                             </a>
@@ -255,42 +248,42 @@
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation">
                                         <a href="#tab-2-1" data-target="#tab-2-1" aria-controls="tab-2-1" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Planta Emergencia
+                                            <span class="pulse-green"></span> Planta Emergencia
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-2-2" data-target="#tab-2-2" aria-controls="tab-2-2" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> UPS
+                                            <span class="pulse-green"></span> UPS
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-2-3" data-target="#tab-2-3" aria-controls="tab-2-3" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Planta DC
+                                            <span class="pulse-green"></span> Planta DC
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-2-4" data-target="#tab-2-4" aria-controls="tab-2-4" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> PAC 2
+                                            <span class="pulse-green"></span> PAC 2
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-2-5" data-target="#tab-2-5" aria-controls="tab-2-5" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Medidor
+                                            <span class="pulse-green"></span> Medidor
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-2-6" data-target="#tab-2-6" aria-controls="tab-2-6" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Inversor
+                                            <span class="pulse-green"></span> Inversor
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-2-7" data-target="#tab-2-7" aria-controls="tab-2-7" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Baterias
+                                            <span class="pulse-green"></span> Baterias
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-2-8" data-target="#tab-2-8" aria-controls="tab-2-8" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Temperatura
+                                            <span class="pulse-green"></span> Temperatura
                                         </a>
                                     </li>
                                 </ul>
@@ -300,7 +293,7 @@
                             <a data-toggle="collapse" data-parent="#group" href="#collapse-3">
                                 <div class="lugar">
                                     <p>
-                                        <i class="fa fa-circle green" aria-hidden="true"></i> <span class="bold">CRIT Cd. México</span><br>
+                                        <span class="pulse-green"></span> <span class="bold">CRIT Cd. México</span><br>
                                     </p>
                                 </div>
                             </a>
@@ -309,42 +302,42 @@
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation">
                                         <a href="#tab-3-1" data-target="#tab-3-1" aria-controls="tab-3-1" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Planta Emergencia
+                                            <span class="pulse-green"></span> Planta Emergencia
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-3-2" data-target="#tab-3-2" aria-controls="tab-3-2" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> UPS
+                                            <span class="pulse-green"></span> UPS
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-3-3" data-target="#tab-3-3" aria-controls="tab-3-3" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Planta DC
+                                            <span class="pulse-green"></span> Planta DC
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-3-4" data-target="#tab-3-4" aria-controls="tab-3-4" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> PAC 2
+                                            <span class="pulse-green"></span> PAC 2
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-3-5" data-target="#tab-3-5" aria-controls="tab-3-5" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Medidor
+                                            <span class="pulse-green"></span> Medidor
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-3-6" data-target="#tab-3-6" aria-controls="tab-3-6" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Inversor
+                                            <span class="pulse-green"></span> Inversor
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-3-7" data-target="#tab-3-7" aria-controls="tab-3-7" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Baterias
+                                            <span class="pulse-green"></span> Baterias
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-3-8" data-target="#tab-3-8" aria-controls="tab-3-8" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Temperatura
+                                            <span class="pulse-green"></span> Temperatura
                                         </a>
                                     </li>
                                 </ul>
@@ -354,7 +347,7 @@
                             <a data-toggle="collapse" data-parent="#group" href="#collapse-4">
                                 <div class="lugar">
                                     <p>
-                                        <i class="fa fa-circle green" aria-hidden="true"></i> <span class="bold">CRIT Guadalajara</span><br>
+                                        <span class="pulse-green"></span> <span class="bold">CRIT Guadalajara</span><br>
                                     </p>
                                 </div>
                             </a>
@@ -363,42 +356,42 @@
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation">
                                         <a href="#tab-4-1" data-target="#tab-4-1" aria-controls="tab-4-1" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Planta Emergencia
+                                            <span class="pulse-green"></span> Planta Emergencia
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-4-2" data-target="#tab-4-2" aria-controls="tab-4-2" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> UPS
+                                            <span class="pulse-green"></span> UPS
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-4-3" data-target="#tab-4-3" aria-controls="tab-4-3" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Planta DC
+                                            <span class="pulse-green"></span> Planta DC
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-4-4" data-target="#tab-4-4" aria-controls="tab-4-4" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> PAC 2
+                                            <span class="pulse-green"></span> PAC 2
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-4-5" data-target="#tab-4-5" aria-controls="tab-4-5" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Medidor
+                                            <span class="pulse-green"></span> Medidor
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-4-6" data-target="#tab-4-6" aria-controls="tab-4-6" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Inversor
+                                            <span class="pulse-green"></span> Inversor
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-4-7" data-target="#tab-4-7" aria-controls="tab-4-7" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Baterias
+                                            <span class="pulse-green"></span> Baterias
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-4-8" data-target="#tab-4-8" aria-controls="tab-4-8" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Temperatura
+                                            <span class="pulse-green"></span> Temperatura
                                         </a>
                                     </li>
                                 </ul>
@@ -408,7 +401,7 @@
                             <a data-toggle="collapse" data-parent="#group" href="#collapse-5">
                                 <div class="lugar">
                                     <p>
-                                        <i class="fa fa-circle green" aria-hidden="true"></i> <span class="bold">L'ORÉAL San Luis Potosi</span><br>
+                                        <span class="pulse-green"></span> <span class="bold">L'ORÉAL San Luis Potosi</span><br>
                                     </p>
                                 </div>
                             </a>
@@ -417,42 +410,42 @@
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation">
                                         <a href="#tab-5-1" data-target="#tab-5-1" aria-controls="tab-5-1" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Planta Emergencia
+                                            <span class="pulse-green"></span> Planta Emergencia
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-5-2" data-target="#tab-5-2" aria-controls="tab-5-2" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> UPS
+                                            <span class="pulse-green"></span> UPS
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-5-3" data-target="#tab-5-3" aria-controls="tab-5-3" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Planta DC
+                                            <span class="pulse-green"></span> Planta DC
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-5-4" data-target="#tab-5-4" aria-controls="tab-5-4" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> PAC 2
+                                            <span class="pulse-green"></span> PAC 2
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-5-5" data-target="#tab-5-5" aria-controls="tab-5-5" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Medidor
+                                            <span class="pulse-green"></span> Medidor
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-5-6" data-target="#tab-5-6" aria-controls="tab-5-6" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Inversor
+                                            <span class="pulse-green"></span> Inversor
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-5-7" data-target="#tab-5-7" aria-controls="tab-5-7" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Baterias
+                                            <span class="pulse-green"></span> Baterias
                                         </a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#tab-5-8" data-target="#tab-5-8" aria-controls="tab-5-8" role="tab" data-toggle="tab">
-                                            <i class="fa fa-circle green" aria-hidden="true"></i> Temperatura
+                                            <span class="pulse-green"></span> Temperatura
                                         </a>
                                     </li>
                                 </ul>

@@ -1,67 +1,86 @@
 var map;
 $(document).ready(function () {
-	google.maps.event.addDomListener(window, 'load', initialize);
+    google.maps.event.addDomListener(window, 'load', initialize);
 });
 
+
 function initialize() {
-	var map_canvas = document.getElementById('googleMap');
+    var map_canvas = document.getElementById('googleMap');
 
-	var map_options = {
-		center: new google.maps.LatLng(23.583729, -102.307294),
-		zoom: 5,
-		mapTypeId: google.maps.MapTypeId.ROADMAP,
-		scrollwheel: true
-	};
+    var map_options = {
+        center: new google.maps.LatLng(23.583729, -102.307294),
+        zoom: 5,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        scrollwheel: false
+    };
 
-	map = new google.maps.Map(map_canvas, map_options);
+    map = new google.maps.Map(map_canvas, map_options);
 
-	var markerChihuahua = new google.maps.Marker({
-		position: new google.maps.LatLng(28.673725, -106.076890),
-		map: map,
-		title: 'ITESM Campus Chihuahua'
-	});
+    var iconBase = 'img/icons/';
+    var icons = {
+        down: {
+            icon: iconBase + 'server-red.png'
+        },
+        up: {
+            icon: iconBase + 'server-green.png'
+        }
+    };
 
-	var markerGuadalajara = new google.maps.Marker({
-		position: new google.maps.LatLng(20.614193, -103.385168),
-		map: map,
-		title: 'CRIT Occidente'
-	});
+    function addMarker(feature) {
+        var marker = new google.maps.Marker({
+            position: feature.position,
+            title: feature.title,
+            icon: icons[feature.type].icon,
+            map: map
+        });
+    }
 
-	var markerMonterrey = new google.maps.Marker({
-		position: new google.maps.LatLng(25.651517, -100.289637),
-		map: map,
-		title: 'ITESM Campus Monterrey'
-	});
+    var features = [
+        {
+            position: new google.maps.LatLng(28.673725, -106.076890),
+            title: 'ITESM Campus Chihuahua',
+            type: 'down'
+        }, {
+            position: new google.maps.LatLng(20.614193, -103.385168),
+            title: 'CRIT Occidente',
+            type: 'up'
+        }, {
+            position: new google.maps.LatLng(25.651517, -100.289637),
+            title: 'ITESM Campus Monterrey',
+            type: 'up'
+        }, {
+            position: new google.maps.LatLng(19.327963, -99.069105),
+            title: 'CRIT Ciudad de México',
+            type: 'down'
+        }, {
+            position: new google.maps.LatLng(21.989511, -100.856157),
+            title: "L'Oréal Paris - San Luis Potosí",
+            type: 'up'
+        }
+    ];
 
-	var markerCdMexico = new google.maps.Marker({
-		position: new google.maps.LatLng(19.327963, -99.069105),
-		map: map,
-		title: 'CRIT Ciudad de México'
-	});
-
-	var markerSanLuisPotosi = new google.maps.Marker({
-		position: new google.maps.LatLng(21.989511, -100.856157),
-		map: map,
-		title: "L'Oréal Paris - San Luis Potosí"
-	});
+    for (var i = 0, feature; feature = features[i]; i++) {
+        addMarker(feature);
+    }
 }
 
+
 function moveToChihuahua() {
-	map.panTo(new google.maps.LatLng(28.673725, -106.076890));
+    map.panTo(new google.maps.LatLng(28.673725, -106.076890));
 }
 
 function moveToGuadalajara() {
-	map.panTo(new google.maps.LatLng(20.614193, -103.385168));
+    map.panTo(new google.maps.LatLng(20.614193, -103.385168));
 }
 
 function moveToMonterrey() {
-	map.panTo(new google.maps.LatLng(25.651517, -100.289637));
+    map.panTo(new google.maps.LatLng(25.651517, -100.289637));
 }
 
 function moveToCdMexico() {
-	map.panTo(new google.maps.LatLng(19.327963, -99.069105));
+    map.panTo(new google.maps.LatLng(19.327963, -99.069105));
 }
 
 function moveToSanLuisPotosi() {
-	map.panTo(new google.maps.LatLng(21.989511, -100.856157));
+    map.panTo(new google.maps.LatLng(21.989511, -100.856157));
 }

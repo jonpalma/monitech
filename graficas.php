@@ -39,14 +39,7 @@
         <!--/* MENU-SUP */-->
 
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <div class="menu-sup" id="menu-sup">
-            <audio class="alarma" src="media/beep.mp3" loop="true" autoplay="true"></audio>
-            <div class="row no-margin">
-                <a class="alertas" href="#"><i class="fa fa-circle notificacion" aria-hidden="true"></i><i class="fa fa-bell" aria-hidden="true"></i></a>
-                <a class="usuario" href="#"><i class="fa fa-circle notificacion" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i></a>
-                <a class="opciones" href="#"><i class="fa fa-circle notificacion" aria-hidden="true"></i><i class="fa fa-cog" aria-hidden="true"></i></a>
-            </div>
-        </div>
+        <?php include('menu.php');?>
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
         <!--/* CONTENT */-->
@@ -259,10 +252,9 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <!--/* PIE */-->
+        <!--/* PIE */-->
 
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <?php include('footer.php');?>
