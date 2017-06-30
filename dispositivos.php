@@ -164,9 +164,39 @@
                 </div>
             </div>
             <div class="imagenes" id="imagenes">
-                <div class="images">
-                    <div class="img-container img-ppl" style="background: url(img/index/img1.jpg) no-repeat center center"></div>
-                    <div class="img-container img-logo" style="background: url(img/index/logo.png) no-repeat center center"></div>
+                <div class="tab-content">
+                    <div class="images tab-pane fade in active" id="tab-img-plantaemergencia" role="tabpanel">
+                        <div class="img-container img-ppl" style="background: url(img/dispositivos/plantaemergencia.jpg) no-repeat center center"></div>
+                        <div class="img-container img-logo" style="background: url(img/dispositivos/dse.jpg) no-repeat center center"></div>
+                    </div>
+                    <div class="images tab-pane fade" id="tab-img-ups" role="tabpanel">
+                        <div class="img-container img-ppl" style="background: url(img/dispositivos/ups.jpg) no-repeat center center"></div>
+                        <div class="img-container img-logo" style="background: url(img/dispositivos/mitsubishi.jpg) no-repeat center center"></div>
+                    </div>
+                    <div class="images tab-pane fade" id="tab-img-plantadc" role="tabpanel">
+                        <div class="img-container img-ppl" style="background: url(img/dispositivos/plantadc.jpg) no-repeat center center"></div>
+                        <div class="img-container img-logo" style="background: url(img/dispositivos/eltek.jpg) no-repeat center center"></div>
+                    </div>
+                    <div class="images tab-pane fade" id="tab-img-pac" role="tabpanel">
+                        <div class="img-container img-ppl" style="background: url(img/dispositivos/pac.jpg) no-repeat center center"></div>
+                        <div class="img-container img-logo" style="background: url(img/dispositivos/stulz.jpg) no-repeat center center"></div>
+                    </div>
+                    <div class="images tab-pane fade" id="tab-img-medidor" role="tabpanel">
+                        <div class="img-container img-ppl" style="background: url(img/dispositivos/medidor.jpg) no-repeat center center"></div>
+                        <div class="img-container img-logo" style="background: url(img/dispositivos/schneider.jpg) no-repeat center center"></div>
+                    </div>
+                    <div class="images tab-pane fade" id="tab-img-inversor" role="tabpanel">
+                        <div class="img-container img-ppl" style="background: url(img/dispositivos/inversor.jpg) no-repeat center center"></div>
+                        <div class="img-container img-logo" style="background: url(img/dispositivos/schneider.jpg) no-repeat center center"></div>
+                    </div>
+                    <div class="images tab-pane fade" id="tab-img-baterias" role="tabpanel">
+                        <div class="img-container img-ppl" style="background: url(img/dispositivos/bateria.jpg) no-repeat center center"></div>
+                        <div class="img-container img-logo" style="background: url() no-repeat center center"></div>
+                    </div>
+                    <div class="images tab-pane fade" id="tab-img-temperatura" role="tabpanel">
+                        <div class="img-container img-ppl" style="background: url(img/dispositivos/temperatura.jpg) no-repeat center center"></div>
+                        <div class="img-container img-logo" style="background: url() no-repeat center center"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -193,42 +223,42 @@
                             <div id="collapse-1" class="panel-collapse collapse in">
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation" class="active">
-                                        <a href="#tab-1-1" data-target="#tab-1-1" aria-controls="tab-1-1" role="tab" data-toggle="tab">
+                                        <a href="#tab-1-1" data-target="#tab-1-1, #tab-img-plantaemergencia" aria-controls="tab-1-1" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Planta Emergencia
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-1-2" data-target="#tab-1-2" aria-controls="tab-1-2" role="tab" data-toggle="tab">
+                                        <a href="#tab-1-2" data-target="#tab-1-2, #tab-img-ups" aria-controls="tab-1-2" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> UPS
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-1-3" data-target="#tab-1-3" aria-controls="tab-1-3" role="tab" data-toggle="tab">
+                                        <a href="#tab-1-3" data-target="#tab-1-3, #tab-img-plantadc" aria-controls="tab-1-3" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Planta DC
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-1-4" data-target="#tab-1-4" aria-controls="tab-1-4" role="tab" data-toggle="tab">
+                                        <a href="#tab-1-4" data-target="#tab-1-4, #tab-img-pac" aria-controls="tab-1-4" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> PAC 2
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-1-5" data-target="#tab-1-5" aria-controls="tab-1-5" role="tab" data-toggle="tab">
+                                        <a href="#tab-1-5" data-target="#tab-1-5, #tab-img-medidor" aria-controls="tab-1-5" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Medidor
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-1-6" data-target="#tab-1-6" aria-controls="tab-1-6" role="tab" data-toggle="tab">
+                                        <a href="#tab-1-6" data-target="#tab-1-6, #tab-img-inversor" aria-controls="tab-1-6" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Inversor
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-1-7" data-target="#tab-1-7" aria-controls="tab-1-7" role="tab" data-toggle="tab">
+                                        <a href="#tab-1-7" data-target="#tab-1-7, #tab-img-baterias" aria-controls="tab-1-7" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Baterias
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-1-8" data-target="#tab-1-8" aria-controls="tab-1-8" role="tab" data-toggle="tab">
+                                        <a href="#tab-1-8" data-target="#tab-1-8, #tab-img-temperatura" aria-controls="tab-1-8" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Temperatura
                                         </a>
                                     </li>
@@ -247,42 +277,42 @@
                             <div id="collapse-2" class="panel-collapse collapse">
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation">
-                                        <a href="#tab-2-1" data-target="#tab-2-1" aria-controls="tab-2-1" role="tab" data-toggle="tab">
+                                        <a href="#tab-2-1" data-target="#tab-2-1, #tab-img-plantaemergencia" aria-controls="tab-2-1" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Planta Emergencia
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-2-2" data-target="#tab-2-2" aria-controls="tab-2-2" role="tab" data-toggle="tab">
+                                        <a href="#tab-2-2" data-target="#tab-2-2, #tab-img-ups" aria-controls="tab-2-2" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> UPS
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-2-3" data-target="#tab-2-3" aria-controls="tab-2-3" role="tab" data-toggle="tab">
+                                        <a href="#tab-2-3" data-target="#tab-2-3, #tab-img-plantadc" aria-controls="tab-2-3" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Planta DC
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-2-4" data-target="#tab-2-4" aria-controls="tab-2-4" role="tab" data-toggle="tab">
+                                        <a href="#tab-2-4" data-target="#tab-2-4, #tab-img-pac" aria-controls="tab-2-4" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> PAC 2
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-2-5" data-target="#tab-2-5" aria-controls="tab-2-5" role="tab" data-toggle="tab">
+                                        <a href="#tab-2-5" data-target="#tab-2-5, #tab-img-medidor" aria-controls="tab-2-5" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Medidor
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-2-6" data-target="#tab-2-6" aria-controls="tab-2-6" role="tab" data-toggle="tab">
+                                        <a href="#tab-2-6" data-target="#tab-2-6, #tab-img-inversor" aria-controls="tab-2-6" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Inversor
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-2-7" data-target="#tab-2-7" aria-controls="tab-2-7" role="tab" data-toggle="tab">
+                                        <a href="#tab-2-7" data-target="#tab-2-7, #tab-img-baterias" aria-controls="tab-2-7" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Baterias
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-2-8" data-target="#tab-2-8" aria-controls="tab-2-8" role="tab" data-toggle="tab">
+                                        <a href="#tab-2-8" data-target="#tab-2-8, #tab-img-temperatura" aria-controls="tab-2-8" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Temperatura
                                         </a>
                                     </li>
@@ -301,42 +331,42 @@
                             <div id="collapse-3" class="panel-collapse collapse">
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation">
-                                        <a href="#tab-3-1" data-target="#tab-3-1" aria-controls="tab-3-1" role="tab" data-toggle="tab">
+                                        <a href="#tab-3-1" data-target="#tab-3-1, #tab-img-plantaemergencia" aria-controls="tab-3-1" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Planta Emergencia
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-3-2" data-target="#tab-3-2" aria-controls="tab-3-2" role="tab" data-toggle="tab">
+                                        <a href="#tab-3-2" data-target="#tab-3-2, #tab-img-ups" aria-controls="tab-3-2" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> UPS
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-3-3" data-target="#tab-3-3" aria-controls="tab-3-3" role="tab" data-toggle="tab">
+                                        <a href="#tab-3-3" data-target="#tab-3-3, #tab-img-plantadc" aria-controls="tab-3-3" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Planta DC
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-3-4" data-target="#tab-3-4" aria-controls="tab-3-4" role="tab" data-toggle="tab">
+                                        <a href="#tab-3-4" data-target="#tab-3-4, #tab-img-pac" aria-controls="tab-3-4" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> PAC 2
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-3-5" data-target="#tab-3-5" aria-controls="tab-3-5" role="tab" data-toggle="tab">
+                                        <a href="#tab-3-5" data-target="#tab-3-5, #tab-img-medidor" aria-controls="tab-3-5" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Medidor
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-3-6" data-target="#tab-3-6" aria-controls="tab-3-6" role="tab" data-toggle="tab">
+                                        <a href="#tab-3-6" data-target="#tab-3-6, #tab-img-inversor" aria-controls="tab-3-6" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Inversor
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-3-7" data-target="#tab-3-7" aria-controls="tab-3-7" role="tab" data-toggle="tab">
+                                        <a href="#tab-3-7" data-target="#tab-3-7, #tab-img-baterias" aria-controls="tab-3-7" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Baterias
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-3-8" data-target="#tab-3-8" aria-controls="tab-3-8" role="tab" data-toggle="tab">
+                                        <a href="#tab-3-8" data-target="#tab-3-8, #tab-img-temperatura" aria-controls="tab-3-8" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Temperatura
                                         </a>
                                     </li>
@@ -355,42 +385,42 @@
                             <div id="collapse-4" class="panel-collapse collapse">
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation">
-                                        <a href="#tab-4-1" data-target="#tab-4-1" aria-controls="tab-4-1" role="tab" data-toggle="tab">
+                                        <a href="#tab-4-1" data-target="#tab-4-1, #tab-img-plantaemergencia" aria-controls="tab-4-1" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Planta Emergencia
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-4-2" data-target="#tab-4-2" aria-controls="tab-4-2" role="tab" data-toggle="tab">
+                                        <a href="#tab-4-2" data-target="#tab-4-2, #tab-img-ups" aria-controls="tab-4-2" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> UPS
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-4-3" data-target="#tab-4-3" aria-controls="tab-4-3" role="tab" data-toggle="tab">
+                                        <a href="#tab-4-3" data-target="#tab-4-3, #tab-img-plantadc" aria-controls="tab-4-3" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Planta DC
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-4-4" data-target="#tab-4-4" aria-controls="tab-4-4" role="tab" data-toggle="tab">
+                                        <a href="#tab-4-4" data-target="#tab-4-4, #tab-img-pac" aria-controls="tab-4-4" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> PAC 2
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-4-5" data-target="#tab-4-5" aria-controls="tab-4-5" role="tab" data-toggle="tab">
+                                        <a href="#tab-4-5" data-target="#tab-4-5, #tab-img-medidor" aria-controls="tab-4-5" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Medidor
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-4-6" data-target="#tab-4-6" aria-controls="tab-4-6" role="tab" data-toggle="tab">
+                                        <a href="#tab-4-6" data-target="#tab-4-6, #tab-img-inversor" aria-controls="tab-4-6" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Inversor
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-4-7" data-target="#tab-4-7" aria-controls="tab-4-7" role="tab" data-toggle="tab">
+                                        <a href="#tab-4-7" data-target="#tab-4-7, #tab-img-baterias" aria-controls="tab-4-7" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Baterias
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-4-8" data-target="#tab-4-8" aria-controls="tab-4-8" role="tab" data-toggle="tab">
+                                        <a href="#tab-4-8" data-target="#tab-4-8, #tab-img-temperatura" aria-controls="tab-4-8" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Temperatura
                                         </a>
                                     </li>
@@ -409,42 +439,42 @@
                             <div id="collapse-5" class="panel-collapse collapse">
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation">
-                                        <a href="#tab-5-1" data-target="#tab-5-1" aria-controls="tab-5-1" role="tab" data-toggle="tab">
+                                        <a href="#tab-5-1" data-target="#tab-5-1, #tab-img-plantaemergencia" aria-controls="tab-5-1" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Planta Emergencia
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-5-2" data-target="#tab-5-2" aria-controls="tab-5-2" role="tab" data-toggle="tab">
+                                        <a href="#tab-5-2" data-target="#tab-5-2, #tab-img-ups" aria-controls="tab-5-2" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> UPS
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-5-3" data-target="#tab-5-3" aria-controls="tab-5-3" role="tab" data-toggle="tab">
+                                        <a href="#tab-5-3" data-target="#tab-5-3, #tab-img-plantadc" aria-controls="tab-5-3" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Planta DC
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-5-4" data-target="#tab-5-4" aria-controls="tab-5-4" role="tab" data-toggle="tab">
+                                        <a href="#tab-5-4" data-target="#tab-5-4, #tab-img-pac" aria-controls="tab-5-4" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> PAC 2
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-5-5" data-target="#tab-5-5" aria-controls="tab-5-5" role="tab" data-toggle="tab">
+                                        <a href="#tab-5-5" data-target="#tab-5-5, #tab-img-medidor" aria-controls="tab-5-5" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Medidor
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-5-6" data-target="#tab-5-6" aria-controls="tab-5-6" role="tab" data-toggle="tab">
+                                        <a href="#tab-5-6" data-target="#tab-5-6, #tab-img-inversor" aria-controls="tab-5-6" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Inversor
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-5-7" data-target="#tab-5-7" aria-controls="tab-5-7" role="tab" data-toggle="tab">
+                                        <a href="#tab-5-7" data-target="#tab-5-7, #tab-img-baterias" aria-controls="tab-5-7" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Baterias
                                         </a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#tab-5-8" data-target="#tab-5-8" aria-controls="tab-5-8" role="tab" data-toggle="tab">
+                                        <a href="#tab-5-8" data-target="#tab-5-8, #tab-img-temperatura" aria-controls="tab-5-8" role="tab" data-toggle="tab">
                                             <span class="pulse-green"></span> Temperatura
                                         </a>
                                     </li>

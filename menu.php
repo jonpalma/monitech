@@ -15,8 +15,11 @@
                 <i class="fa fa-cog" aria-hidden="true"></i>
             </button>
             <ul class="dropdown-menu">
-                <li><a href="#">Opcion 1</a></li>
-                <li><a href="#">Opcion 2</a></li>
+                <li><a href="#">Administrar usuarios</a></li>
+                <li><a href="#">Servidor correos</a></li>
+                <li><a href="#">Descargar extractor</a></li>
+                <li><a href="#">Servidores</a></li>
+                <li><a href="#">PUE</a></li>
             </ul>
         </div>
         <div class="btn-group">

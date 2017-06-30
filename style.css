@@ -1113,6 +1113,10 @@ a {
     margin-bottom: 25px;
 }
 
+#content #alertas-imagenes #imagenes .tab-content {
+    height: 100%;
+}
+
 #content #alertas-imagenes #imagenes .images .img-container {
     float: left;
     height: 100%;
@@ -1122,7 +1126,7 @@ a {
 #content #alertas-imagenes #imagenes .images .img-container.img-ppl {
     width: calc(65% - 5px);
     margin-right: 5px;
-    background-size: cover!important;
+    background-size: contain!important;
 }
 
 #content #alertas-imagenes #imagenes .images .img-container.img-logo {
@@ -1482,6 +1486,18 @@ a {
     height: calc(100% - 40px);
 }
 
+#content #reportes .ver-reporte.content {
+    height: calc(100% - 150px);
+}
+
+#content #reportes .ver-reporte.content .tab-content {
+    height: 100%;
+}
+
+#content #reportes .ver-reporte.content .tab-content .tab-pane {
+    height: 100%;
+}
+
 #content #reportes #servidores .title-section {
     background-color: #64B5FC;
 }
@@ -1501,6 +1517,78 @@ a {
 #content #reportes #servidores .reporte-opciones .fecha .col-xs-8,
 #content #reportes #servidores .reporte-opciones .fecha .col-xs-4 {
     padding: 0;
+}
+
+#content #reportes #servidores .reporte-opciones .fecha #bttnReporte {
+    cursor: pointer;
+}
+
+#content #reportes #servidores .content .ver-reporte .title-fixed {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#content #reportes #servidores .content .ver-reporte .title-fixed .row.cabezal {
+    background-color: #D7D7D7;
+}
+
+#content #reportes #servidores .content .ver-reporte .data {
+    height: calc(100% - 100px);
+}
+
+#content #reportes #servidores .content .ver-reporte p {
+    font-size: 14px;
+    color: #000000;
+    margin: 0;
+    padding: 10px 25px;
+}
+
+#content #reportes #servidores .content .ver-reporte .servidor,
+#content #reportes #servidores .content .ver-reporte .dispositivo {
+    float: left;
+    min-height: 1px;
+}
+
+#content #reportes #servidores .content .ver-reporte .servidor,
+#content #reportes #servidores .content .ver-reporte .dispositivo {
+    width: 50%;
+}
+
+#content #reportes #servidores .content .ver-reporte ul {
+    list-style: none;
+    height: calc(100% - 40px);
+    width: 100%;
+    margin: 0;
+    padding: 5px 25px;
+    background-color: #EBEBEB;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#content #reportes #servidores .content .ver-reporte ul > li.canal,
+#content #reportes #servidores .content .ver-reporte ul > li.fecha-inicio,
+#content #reportes #servidores .content .ver-reporte ul > li.fecha-fin {
+    float: left;
+    min-height: 1px;
+}
+
+#content #reportes #servidores .content .ver-reporte ul > li.canal {
+    width: 30%;
+}
+
+#content #reportes #servidores .content .ver-reporte ul > li.fecha-inicio,
+#content #reportes #servidores .content .ver-reporte ul > li.fecha-fin {
+    width: 35%;
+}
+
+#content #reportes #servidores .content .ver-reporte ul > li .row {
+    padding: 10px  0px;
+}
+
+#content #reportes #servidores .content .ver-reporte ul > li p {
+    padding: 0;
+    background-color: transparent;
 }
 
 
